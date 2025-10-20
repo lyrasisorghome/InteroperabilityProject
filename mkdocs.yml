@@ -1,5 +1,9 @@
 site_name: Lyrasis CSTs
+site_description: Developing enhancements for Lyrasis Community-Supported Technologies.
+site_url: https://facilitator-jess.github.io/LyrasisCST/
 nav:
-- Home: index.md
-- About: about.md
+  - Home: index.md
+  - About: about.md
 theme: readthedocs
+plugins:
+  - rss
