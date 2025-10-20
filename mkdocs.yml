@@ -4,6 +4,7 @@ site_url: https://facilitator-jess.github.io/LyrasisCST/
 nav:
   - Home: index.md
   - About: about.md
+
 theme: readthedocs
 plugins:
   - rss
