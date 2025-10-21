@@ -1,5 +1,5 @@
 # Lyrasis CSTs Interoperability Project
-The CST Interoperability Project will enhance interoperability of each of the  CSTs in the Lyrasis Organizational Home: ArchivesSpace, CollectionSpace, DSpace, Fedora and VIVO. 
+The Community Supported Technologies (CST) Interoperability Project will enhance interoperability of each of the  CSTs in the Lyrasis Organizational Home: ArchivesSpace, CollectionSpace, DSpace, Fedora and VIVO. 
 
 ## Latest News
 - [Announcing the Lyrasis CST Interoperabilty Project](https://lyrasis.org/lyrasis-now/)
