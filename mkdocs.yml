@@ -1,6 +1,6 @@
-site_name: Lyrasis CSTs
+site_name: Lyrasis CST Interoperability Project
 site_description: Developing enhancements for Lyrasis Community-Supported Technologies.
-site_url: https://facilitator-jess.github.io/LyrasisCST/
+site_url: https://lyrasisorghome.github.io/InteroperabilityProject
 nav:
   - Home: index.md
   - About: about.md
