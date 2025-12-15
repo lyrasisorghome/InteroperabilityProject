@@ -3,7 +3,7 @@ There are many ways to provide feedback on integration ideas to be considered in
 
 Each Lyrasis CST will receive development support for at least *one* integration.
 
-To select an integration, the feedback process has three steps:
+To select an integration, the feedback process has these steps:
 1. Generate ideas
 2. Generate conversation about ideas
 3. Generate solutions
@@ -32,7 +32,7 @@ Generated ideas are posted to GitHub Issues and an email list. The ideas are ref
 - Join the discussion at the [cst-interoperability email group](https://groups.google.com/a/lyrasislists.org/g/cst-interoperability).
 
 ## Proposal and Decision
-The CST Interoperability consultant will review feedback generated from these sources and make a proposal to each community's leadership. The target date for finalizing this decision is Jan. 30, 2026.
+The CST Interoperability consultant will review feedback generated from these sources and make a proposal to each community's leadership. The target date for finalizing this decision is Feb. 9, 2026.
 
 # Designing Integrations Together
 _*Feb-May 2026*_
