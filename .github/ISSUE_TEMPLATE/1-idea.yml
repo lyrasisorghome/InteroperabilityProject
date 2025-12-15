@@ -4,7 +4,6 @@ title: "💡 Idea: [short phrase] "
 labels: ["idea"]
 projects: ["lyrasisorghome/projects/1"]
 type: solution
-milestone: "Generate ideas"
 
 body:
 - type: markdown
