@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Interoperability Project Ideas and Discussions on GitHub
+    url: https://github.com/lyrasisorghome/InteroperabilityProject/issues
+    about: Please propose ideas and solutions, and describe user behaviors here.
+ - name: Interoperability Project Ideas and Discussions on Google Groups
+    url: https://groups.google.com/a/lyrasislists.org/g/cst-interoperability
+    about: Please propose ideas and solutions, and describe user behaviors here.
+  - name: Lyrasis CST Interoperability Project Website
+    url: https://lyrasisorghome.github.io/InteroperabilityProject/
+    about: Project news and updates.
