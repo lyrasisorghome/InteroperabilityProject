@@ -49,7 +49,7 @@ Once solutions are identified, we will work together to draft descriptions and u
 
 The ideas that make it through these steps of the feedback process will be considered for developing functional requirements. The CST Interoperability consultant will propose one solution to each community's governance team. We will select up to five solutions total (at least one for each CST) with a target decision date of January 30. 
 
-Check the [GitHub Project] (https://github.com/orgs/lyrasisorghome/projects/1) to see ideas moving through the refinement process. Stay tuned to see what amazing ideas make it to the top!
+Check the [GitHub Project](https://github.com/orgs/lyrasisorghome/projects/1) to see ideas moving through the refinement process. Stay tuned to see what amazing ideas make it to the top!
 
 ### Project Kickoff at the Organizational Home Cross-Chairs Meeting
 
