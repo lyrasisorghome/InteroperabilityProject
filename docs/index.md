@@ -71,7 +71,7 @@ The [meeting slides](https://docs.google.com/presentation/d/1-wC_FNy68yYaf2rutW2
 |Date|Milestone|
 |----|---------|
 |Dec. 30, 2025|Integrations identified and feedback requested on suggested integrations.|
-|Jan. 30, 2026|Integrations selected and approved.|
+|Feb. 23, 2026|Integrations selected and approved.|
 |April 30, 2026|Draft Specifications complete.|
 |June 30, 2026| Final Specifications and full implementation package complete.|
 
