@@ -63,7 +63,7 @@ The [meeting slides](https://docs.google.com/presentation/d/1-wC_FNy68yYaf2rutW2
 |----|-------|-------|
 |Oct-Dec 2025|Feedback|Share integration ideas.|
 |Jan. 2026|Feedback|Provide feedback on suggested integrations.|
-|Jan./Feb. 2026|Approval|Approve recommended workflows.|
+|Feb. 2026|Approval|Approve recommended workflows.|
 |May 2026|Feedback|Provide feedback on draft functional requirements.|
 |June 2026|Approval|Approve functional requirements.|
 
