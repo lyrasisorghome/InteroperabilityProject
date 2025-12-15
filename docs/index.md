@@ -25,7 +25,7 @@ Then we held a series of workshops with each CST community, and a two-day blitz 
 *Above: Whiteboard sample from an integration workshop*
 
 ##### Survey
-We developed and released a survey. Anyone involved in a Lyrasis CST is invited to fill out the survey. We hope the survey will generate further ideas, more information about existing integrations, and feedback on other interoperability-related program needs. The survey is open until Dec. 28, so fill out the one for your respective community now!:
+We developed and released a survey. Anyone involved in a Lyrasis CST is invited to fill out the survey. We hope the survey will generate further ideas, more information about existing integrations, and feedback on other interoperability-related program needs. **The survey is open until Jan. 15**, so fill out the one for your respective community now!:
 
 - ArchivesSpace (link)
 - CollectionSpace (link)
