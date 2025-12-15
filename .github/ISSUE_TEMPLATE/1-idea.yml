@@ -6,22 +6,6 @@ projects: ["lyrasisorghome/projects/1"]
 type: idea
 
 body:
-- type: markdown
-  attributes:
-    value: | 
-      # Idea for Review
-      An interoperability solution has been proposed. Please discuss this idea further. Some prompts to guide you:
-      
-      - What would this solution achieve? Who would use it and why?
-      - If there are applications involved, what are they? Which components of each application would you like to integrate, and for what purpose?
-      - Describe the user journey as you imagine using this integration. Start by filling in the blanks: As a [role], I want to [discrete function].
-
-       
-      ## What happens next?
-      Comment on this issue by ***January 15*** if you would like for this integration to be considered for the roadmap! See the [Feedback](docs/feedback.md) page for more information about the feedback process.
-      Thank you for participating in the Lyrasis CST Interoperability project!
-
-      
        
 - type: checkboxes
   id: CST
