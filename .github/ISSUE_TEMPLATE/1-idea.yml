@@ -1,0 +1,60 @@
+name: Integration Idea
+description: Idea for improving Lyrasis CST interoperability.
+title: "💡 Idea: [short phrase] "
+labels: ["Idea"]
+projects: ["lyrasisorghome/projects/1"]
+type: idea
+
+body:
+       
+- type: checkboxes
+  id: CST
+  attributes:
+    label: Which Lyrasis CST(s) does this interoperability solution involve?
+    description: You must select at least one.
+    options:
+        - label: ArchivesSpace
+        - label: CollectionSpace
+        - label: DSpace
+        - label: Fedora
+        - label: VIVO
+  validations:
+    required: true
+    
+
+- type: input
+  id: solution-summary
+  attributes:
+    label: Idea
+    placeholder: An integration/interoperabilty project for/between [Application/CST] and [Application/CST] to [general description of purpose]
+  validations:
+    required: true
+    
+
+- type: textarea
+  id: description
+  attributes:
+    label: More information
+    description: Any background information, such as where the idea came from or why it would benefit the CST.
+    placeholder: 
+  validations:
+    required: false
+    
+
+- type: input
+  id: groups-link
+  attributes:
+    label: Discussion on Google groups
+    description: Link to the discussion on Google groups
+    placeholder: https://groups.google.com/a/lyrasislists.org/g/cst-interoperability
+  validations:
+    required: false
+    
+
+- type: textarea
+  id: user-story
+  attributes:
+    label: User story
+    description: Share some more detail about your workflow and what is important in designing the integration.
+  validations:
+    required: false
