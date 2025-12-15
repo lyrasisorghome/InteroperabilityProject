@@ -9,15 +9,19 @@ body:
 - type: markdown
   attributes:
     value: | 
-      # Call to Action
+      # Idea for Review
       An interoperability solution has been proposed. Please discuss this idea further. Some prompts to guide you:
+      
       - What would this solution achieve? Who would use it and why?
       - If there are applications involved, what are they? Which components of each application would you like to integrate, and for what purpose?
       - Describe the user journey as you imagine using this integration. Start by filling in the blanks: As a [role], I want to [discrete function].
+
        
       ## What happens next?
       Comment on this issue by ***January 15*** if you would like for this integration to be considered for the roadmap! See the [Feedback](docs/feedback.md) page for more information about the feedback process.
       Thank you for participating in the Lyrasis CST Interoperability project!
+
+      
        
 - type: checkboxes
   id: CST
@@ -25,13 +29,14 @@ body:
     label: Which Lyrasis CST(s) does this interoperability solution involve?
     description: You must select at least one.
     options:
-      - label: ArchivesSpace
-      - label: CollectionSpace
-      - label: DSpace
-      - label: Fedora
-      - label: VIVO
+        - label: ArchivesSpace
+        - label: CollectionSpace
+        - label: DSpace
+        - label: Fedora
+        - label: VIVO
   validations:
     required: true
+    
 
 - type: input
   id: solution-summary
@@ -40,6 +45,7 @@ body:
     placeholder: An integration/interoperabilty project for/between [Application/CST] and [Application/CST] to [general description of purpose]
   validations:
     required: true
+    
 
 - type: textarea
   id: description
@@ -49,6 +55,7 @@ body:
     placeholder: 
   validations:
     required: false
+    
 
 - type: input
   id: groups-link
@@ -58,6 +65,7 @@ body:
     placeholder: https://groups.google.com/a/lyrasislists.org/g/cst-interoperability
   validations:
     required: false
+    
 
 - type: textarea
   id: user-story
