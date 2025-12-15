@@ -3,7 +3,7 @@ description: Idea for improving Lyrasis CST interoperability.
 title: "💡 Idea: [short phrase] "
 labels: ["idea"]
 projects: ["lyrasisorghome/projects/1"]
-type: solution
+type: idea
 
 body:
 - type: markdown
@@ -16,7 +16,7 @@ body:
       - Describe the user journey as you imagine using this integration. Start by filling in the blanks: As a [role], I want to [discrete function].
        
       ## What happens next?
-      Comment on this issue by ==January 15== if you would like for this integration to be considered for the roadmap! See the Feedback[link] page for more information about the feedback process.
+      Comment on this issue by ***January 15*** if you would like for this integration to be considered for the roadmap! See the [Feedback](docs/feedback.md) page for more information about the feedback process.
       Thank you for participating in the Lyrasis CST Interoperability project!
        
 - type: checkboxes
