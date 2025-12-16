@@ -27,11 +27,11 @@ Then we held a series of workshops with each CST community, and a two-day blitz 
 ##### Survey
 We developed and released a survey. Anyone involved in a Lyrasis CST is invited to fill out the survey. We hope the survey will generate further ideas, more information about existing integrations, and feedback on other interoperability-related program needs. **The survey is open until Jan. 15**, so fill out the one for your respective community now!:
 
-- ArchivesSpace (link)
-- CollectionSpace (link)
-- DSpace (link)
-- Fedora (link)
-- VIVO (link)
+- [ArchivesSpace](https://docs.google.com/forms/d/e/1FAIpQLSe5oZ8B-3RitDRyW_HFOcehVg2l4QqN3wCNo8bZrcijjVuqaA/viewform?usp=dialog)
+- [CollectionSpace](https://docs.google.com/forms/d/e/1FAIpQLSfFr45fQ1LEirZCxvWc0ScFRw9LOsX4LEAoRgdayI4D5dYvtw/viewform?usp=dialog)
+- [DSpace](https://docs.google.com/forms/d/e/1FAIpQLSf5ditujBbXJl5b0ItqJ-g0eSqzRxiEqNEuG5arl0THl5clVA/viewform?usp=dialog)
+- [Fedora](https://docs.google.com/forms/d/e/1FAIpQLScG7-K0tPVhjuopezNoRakZ2cVsquvuXu357Bls_iOuHbJnfg/viewform?usp=dialog)
+- [VIVO](https://docs.google.com/forms/d/e/1FAIpQLSdGSmuNqkZRqBUewvnpSHKSkCpZtW8QuyNxTZ3vbqxTciaaVw/viewform?usp=dialog)
 
 Please help us spread the word about your community’s survey: Share it with other users of your community technology, or post it on your favorite social media platform.
 

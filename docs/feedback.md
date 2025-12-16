@@ -14,11 +14,12 @@ To select an integration, the feedback process has these steps:
 
 1. Attend a workshop in November or December 2025
 2. Fill out the survey:
-    - [ArchivesSpace](link)
-    - [CollectionSpace](link)
-    - [DSpace](link)
-    - [Fedora](link)
-    - [VIVO](link)
+
+    - [ArchivesSpace](https://docs.google.com/forms/d/e/1FAIpQLSe5oZ8B-3RitDRyW_HFOcehVg2l4QqN3wCNo8bZrcijjVuqaA/viewform?usp=dialog)
+    - [CollectionSpace](https://docs.google.com/forms/d/e/1FAIpQLSfFr45fQ1LEirZCxvWc0ScFRw9LOsX4LEAoRgdayI4D5dYvtw/viewform?usp=dialog)
+    - [DSpace](https://docs.google.com/forms/d/e/1FAIpQLSf5ditujBbXJl5b0ItqJ-g0eSqzRxiEqNEuG5arl0THl5clVA/viewform?usp=dialog)
+    - [Fedora](https://docs.google.com/forms/d/e/1FAIpQLScG7-K0tPVhjuopezNoRakZ2cVsquvuXu357Bls_iOuHbJnfg/viewform?usp=dialog)
+    - [VIVO](https://docs.google.com/forms/d/e/1FAIpQLSdGSmuNqkZRqBUewvnpSHKSkCpZtW8QuyNxTZ3vbqxTciaaVw/viewform?usp=dialog)
 
 3. [Submit an Idea via GitHub Issues](https://github.com/lyrasisorghome/InteroperabilityProject/issues)</p>
 4. Email jessica.farrell-ctr@lyrasis.org
