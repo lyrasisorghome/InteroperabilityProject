@@ -20,16 +20,6 @@ body:
         - label: VIVO
   validations:
     required: true
-    
-
-- type: input
-  id: solution-summary
-  attributes:
-    label: Idea
-    placeholder: An integration/interoperabilty project for/between [Application/CST] and [Application/CST] to [general description of purpose]
-  validations:
-    required: true
-    
 
 - type: textarea
   id: description
@@ -45,7 +35,7 @@ body:
   id: groups-link
   attributes:
     label: Discussion on Google groups
-    description: Link to the discussion on Google groups
+    description: Link to the discussion on Google groups, if a post exists
     placeholder: https://groups.google.com/a/lyrasislists.org/g/cst-interoperability
   validations:
     required: false
@@ -55,6 +45,6 @@ body:
   id: user-story
   attributes:
     label: User story
-    description: Share some more detail about your workflow and what is important in designing the integration.
+    description: Share some more detail about your workflow and what is important in designing the integration or interoperability solution.
   validations:
     required: false
