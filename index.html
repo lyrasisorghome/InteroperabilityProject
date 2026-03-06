@@ -38,28 +38,6 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#public-announcements">Public Announcements</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-updates">Project Updates</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#fall-feedback-sessions">Fall Feedback Sessions</a>
-        <ul>
-    <li class="toctree-l4"><a class="reference internal" href="#generating-ideas">Generating Ideas</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#generating-conversation-about-ideas">Generating Conversation about Ideas</a>
-    </li>
-    <li class="toctree-l4"><a class="reference internal" href="#generating-designs">Generating Designs</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-kickoff-at-the-organizational-home-cross-chairs-meeting">Project Kickoff at the Organizational Home Cross-Chairs Meeting</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#important-dates-for-cst-communities">‼️ Important Dates for CST Communities</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-milestones">🎯 Project Milestones</a>
-    </li>
-        </ul>
-    </li>
     </ul>
                 </li>
               </ul>
@@ -97,26 +75,105 @@
               
                 <h1 id="lyrasis-cst-interoperability-project">Lyrasis CST Interoperability Project</h1>
 <p>The Community Supported Technologies (CST) Interoperability Project will enhance interoperability of each of the  CSTs in the Lyrasis Organizational Home: ArchivesSpace, CollectionSpace, DSpace, Fedora and VIVO. </p>
-<h2 id="public-announcements">Public Announcements</h2>
-<ul>
-<li><a href="https://lyrasis.org/the-lyrasis-organizational-home-launches-the-cst-interoperability-project/">Announcing the Lyrasis CST Interoperabilty Project</a></li>
-<li><a href="https://lyrasis.org/lyrasis-is-strengthening-the-foundations-of-the-organizational-home/">Announcing the CST Growth Fund</a></li>
-</ul>
-<h2 id="project-updates">Project Updates</h2>
-<h3 id="fall-feedback-sessions">Fall Feedback Sessions</h3>
+<h1 id="project-updates">Project Updates</h1>
+<h2 id="use-cases-selected">Use Cases Selected</h2>
+<p><em>March 6, 2026</em></p>
+<p>We recently celebrated a project milestone! In February, the Interoperability project team received approval to write specifications for several use cases:</p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>CST Application(s)</strong></th>
+<th><strong>Specifications Focus</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1, A2</td>
+<td>As an ArchivesSpace User, when I am editing a component in ArchivesSpace, I want to search for an item or a collection of related items in DSpace and add their link(s) to corresponding ArchivesSpace digital object record(s).</td>
+<td>ArchivesSpace, DSpace</td>
+<td>ArchivesSpace use of DSpace Search API<br><br>One-time data transfer (no automatic synchronization)</td>
+</tr>
+<tr>
+<td>A3, A4</td>
+<td>As an ArchivesSpace User, I want to deposit a file or folder of files into an institutional repository, digital library, or preservation system and link to it in a new ArchivesSpace digital object record(s).</td>
+<td>ArchivesSpace, DSpace</td>
+<td>ArchivesSpace use of SWORD API for deposits</td>
+</tr>
+<tr>
+<td>V1</td>
+<td>As a VIVO user, when I add a publication to my VIVO profile I want to deposit the publication in my institutional repository and link to it from my VIVO profile.</td>
+<td>VIVO, DSpace</td>
+<td>VIVO use of SWORD API for deposits</td>
+</tr>
+<tr>
+<td>V2</td>
+<td>As a VIVO user, I want to receive updates on my VIVO profile when there are status or metadata changes to a linked publication in my institutional repository.</td>
+<td>VIVO, DSpace</td>
+<td>VIVO support for COAR-notify messages</td>
+</tr>
+<tr>
+<td>C1</td>
+<td>As an administrator of CollectionSpace I would like to make my CollectionSpace records and digital content available to my institution’s OAI-PMH compliant discovery system.</td>
+<td>CollectionSpace</td>
+<td>OAI-PMH API for CollectionSpace</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>As an administrator of both ArchivesSpace and CollectionSpace, I want to offer a single search interface for data from both so that users can search for more historical collections in one place.</td>
+<td>CollectionSpace, ArchiveSpace</td>
+<td>OAI-PMH API for CollectionSpace</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>As a user of a shared discovery platform containing records from both CollectionSpace and ArchivesSpace, I want to conduct a search and bring up relevant records from each.</td>
+<td>CollectionSpace, ArchivesSpace</td>
+<td>ArchivesSpace-CollectionSpace DataMapping/Search Requirements</td>
+</tr>
+<tr>
+<td>F1, V1</td>
+<td>As a potential Fedora, VIVO, DSpace, CollectionSpace, or ArchivesSpace adopter, I want to have easy access to documentation and examples for integration so that I can more easily understand its relevance in my ecosystem.</td>
+<td>Fedora, VIVO, DSpace, CollectionSpace, and ArchivesSpace</td>
+<td>Integration Repository and Documentation</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>As a lecturer, I want to deposit course materials from my Learning Management System into DSpace</td>
+<td>DSpace</td>
+<td>Integration Repository and Documentation</td>
+</tr>
+<tr>
+<td>D2</td>
+<td>As a DSpace user I would like to send an updated copy of a manuscript to OJS for Peer Review</td>
+<td>DSpace</td>
+<td>Integration Repository and Documentation</td>
+</tr>
+</tbody>
+</table>
+<p>These succinct use cases synthesize feedback from surveys, workshops, and engagements with community user and technology teams. The data showed that Lyrasis CSTs already support a wide range of use cases and workflows. Within communities, there was rarely a top need that was obvious. We hope that some users find that even if a use case is not their specific case, they may be able to benefit from some of the development, because it is focused on open protocols. We intend to write specifications to create proof of concept integrations with these open protocols with a few Lyrasis CSTs: ArchivesSpace and DSpace; VIVO and DSpace; and CollectionSpace and ArchivesSpace. </p>
+<p>Our decisions came from much discussion about the feedback with program staff and community code contributors. We will focus the technical specifications on leveraging and improving existing CST functionality to enable integrations. Many of the ideas we <em>didn't</em> choose fall into these categories:
+- The integration had already been built and documented
+- The integration is already in the CST's development roadmap
+- The integration does not make use of existing functionality; development scope may be too big
+- The integration does not leverage open source technology</p>
+<p>One user story, F1, is a bit different from the rest. We will write specifications for a repository that will include information on how to integrate Lyrasis CSTs with many different technologies. This is in response to several documentation and training needs voiced in the survey and workshops.</p>
+<p>The project's final report, which will be shared publicly, will include a deeper dive into the survey and feedback data.</p>
+<h2 id="fall-feedback-sessions">Fall Feedback Sessions</h2>
+<p><em>Dec. 18, 2025</em></p>
 <p>The <a href="feedback/">feedback</a> process has taken shape:</p>
 <ol>
 <li>Generate ideas</li>
 <li>Generate conversation about ideas</li>
 <li>Generate solutions</li>
 </ol>
-<h4 id="generating-ideas">Generating Ideas</h4>
+<h3 id="generating-ideas">Generating Ideas</h3>
 <p>We are nearing the end of the idea generation process. The CST communities have a long history of documentation and conversations about integrations and feature requests. We first generated ideas from past documentation.</p>
-<h5 id="workshops">Workshops</h5>
+<h4 id="workshops">Workshops</h4>
 <p>Then we held a series of workshops with each CST community, and a two-day blitz of workshops that members of any Lyrasis CST community could participate in to solicit ideas.</p>
 <p><img alt="whiteboard" src="img/2025-12-12-update.png" />
 <em>Above: Whiteboard sample from an integration workshop</em></p>
-<h5 id="survey">Survey</h5>
+<h4 id="survey">Survey</h4>
 <p>We developed and released a survey. Anyone involved in a Lyrasis CST is invited to fill out the survey. We hope the survey will generate further ideas, more information about existing integrations, and feedback on other interoperability-related program needs. <strong>The survey is open until Jan. 15</strong>, so fill out the one for your respective community now!:</p>
 <ul>
 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5oZ8B-3RitDRyW_HFOcehVg2l4QqN3wCNo8bZrcijjVuqaA/viewform?usp=dialog">ArchivesSpace</a></li>
@@ -126,13 +183,13 @@
 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdGSmuNqkZRqBUewvnpSHKSkCpZtW8QuyNxTZ3vbqxTciaaVw/viewform?usp=dialog">VIVO</a></li>
 </ul>
 <p>Please help us spread the word about your community’s survey: Share it with other users of your community technology, or post it on your favorite social media platform.</p>
-<h4 id="generating-conversation-about-ideas">Generating Conversation about Ideas</h4>
+<h3 id="generating-conversation-about-ideas">Generating Conversation about Ideas</h3>
 <p>We are now discussing high level ideas to identify discrete solutions we can design. If you are a Lyrasis CST community member, you are invited to participate in conversations about proposed solutions. You have two pathways to participate.</p>
 <ul>
 <li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues">GitHub Issues</a></li>
 <li><a href="https://groups.google.com/a/lyrasislists.org/g/cst-interoperability">Email List</a></li>
 </ul>
-<h4 id="generating-designs">Generating Designs</h4>
+<h3 id="generating-designs">Generating Designs</h3>
 <p>Once solutions are identified, we will work together to draft descriptions and user behavior scenarios using a Behavior-Driven Design (BDD) process. Again, there are two ways to participate in defining user behavior:</p>
 <ul>
 <li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues">GitHub Issues</a></li>
@@ -140,7 +197,8 @@
 </ul>
 <p>The ideas that make it through these steps of the feedback process will be considered for developing functional requirements. The CST Interoperability consultant will propose one solution to each community's governance team. We will select up to five solutions total (at least one for each CST) with a target decision date of January 30. </p>
 <p>Check the <a href="https://github.com/orgs/lyrasisorghome/projects/1">GitHub Project</a> to see ideas moving through the refinement process. Stay tuned to see what amazing ideas make it to the top!</p>
-<h3 id="project-kickoff-at-the-organizational-home-cross-chairs-meeting">Project Kickoff at the Organizational Home Cross-Chairs Meeting</h3>
+<h2 id="project-kickoff-at-the-organizational-home-cross-chairs-meeting">Project Kickoff at the Organizational Home Cross-Chairs Meeting</h2>
+<p><em>Oct. 21, 2025</em></p>
 <p>We were fortunate to time our project kick-off with the Fall quarterly Organizational Cross-Chairs Meeting where all the Chairs and Vice Chairs of Lyrasis CSTs get together. On Oct. 15, 2025, we shared the primary goals, deadlines, and engagement points for the Interoperability project.</p>
 <p>The <a href="https://docs.google.com/presentation/d/1-wC_FNy68yYaf2rutW2vL5U0QC7_AtRm402EiPyHyxA/edit?slide=id.g36900fdbd32_0_0#slide=id.g36900fdbd32_0_0">meeting slides</a> include a summary of this information.</p>
 <h3 id="important-dates-for-cst-communities">‼️ Important Dates for CST Communities</h3>
@@ -207,6 +265,12 @@
 </tr>
 </tbody>
 </table>
+<h2 id="announcing-the-lyrasis-cst-interoperability-project">Announcing the Lyrasis CST Interoperability Project</h2>
+<p><em>Oct. 22, 2025</em>
+- <a href="https://lyrasis.org/the-lyrasis-organizational-home-launches-the-cst-interoperability-project/">Announcing the Lyrasis CST Interoperabilty Project</a></p>
+<h2 id="announcing-the-cst-growth-fund">Announcing the CST Growth Fund</h2>
+<p><em>Aug. 1, 2025</em>
+- <a href="https://lyrasis.org/lyrasis-is-strengthening-the-foundations-of-the-organizational-home/">Announcing the CST Growth Fund</a></p>
 <!-- ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -273,5 +337,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-12-18 13:34:54.997856+00:00
+Build Date UTC : 2026-03-06 20:58:25.667373+00:00
 -->
