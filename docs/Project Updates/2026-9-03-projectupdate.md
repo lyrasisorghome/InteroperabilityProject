@@ -1,7 +1,7 @@
 # Technical Specifications Complete
 *September 3, 2026*
 
-The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for **six** new features for Lyrasis Community-Supported Technologies! The features are based on specific [community-supported use cases](Project%20Updates/2026-03-06-projectupdate/).
+The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for **six** new features for Lyrasis Community-Supported Technologies! The features are based on specific [community-supported use cases](https://lyrasisorghome.github.io/InteroperabilityProject/Project%20Updates/2026-03-06-projectupdate/).
 
 In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. With Ryan's expertise, we sped up the project and produced the level of detail required for developers to create the intended features.
 
@@ -32,8 +32,11 @@ An administrator enables and configures the SWORD endpoint through a combination
 The ArchivesSpace SWORD Deposit feature will allow users to deposit one or more files to a SWORD-enabled repository (e.g., DSpace, Dataverse), such as digitized collection material or born-digital archives. 
 
 Users may deposit any file type that the SWORD endpoint accepts. There are three distinct user journeys (modes) specified in the feature design:
+
 1. Users may deposit **a single file** by entering edit mode on the associated Archival Object or Resource, then Instances > Add Digital Object > Create > (new option) Upload File Version.
+
 2. Users may deposit **many files and relate them 1:1** to an archival object by entering edit mode on the associated Archival Object or Resource, then (new option) Batch Upload and Link > Upload files.
+
 3. Users may deposit many files and relate them all to one Archival Object or Resource by entering edit mode on the associated Archival Object or Resource, then Instances > (new button) Upload Digital Objects > Upload files.
 
 Metadata from the Archival Object, including a link back to the digital object, is used to create the digital objects in the SWORD-enabled repository. 
@@ -56,7 +59,9 @@ The feature design recommends using existing functionality and user interfaces t
 This will expand a list of every immediate child archival object of the host record. Each row shows the child title (or display string) and an input that can hold a provisional link to one DSpace item.
 
 The new feature searches the DSpace API. The user can link search results in two modes:
+
 1. Create a DO from & Link a single DSpace item to an ArchivesSpace Archival Object
+
 2. Create DOs & Link many DSpace items to many ArchivesSpace Archival Objects
 
 After the file or group of files is linked, ArchivesSpace digital objects for each file deposited to the endpoint are created. Each digital object contains a link to the item in the SWORD-enabled repository. 

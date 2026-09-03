@@ -1,7 +1,7 @@
 # Fall Feedback Sessions
 *Dec. 18, 2025*
 
-The [feedback](feedback.md) process has taken shape:
+The [feedback](https://lyrasisorghome.github.io/InteroperabilityProject/feedback/) process has taken shape:
 
 1. Generate ideas
 2. Generate conversation about ideas
