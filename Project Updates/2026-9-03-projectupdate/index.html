@@ -731,7 +731,7 @@
 
 <h1 id="technical-specifications-complete">Technical Specifications Complete</h1>
 <p><em>September 3, 2026</em></p>
-<p>The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for <strong>six</strong> new features for Lyrasis Community-Supported Technologies! The features are based on specific <a href="Project%20Updates/2026-03-06-projectupdate/">community-supported use cases</a>.</p>
+<p>The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for <strong>six</strong> new features for Lyrasis Community-Supported Technologies! The features are based on specific <a href="https://lyrasisorghome.github.io/InteroperabilityProject/Project%20Updates/2026-03-06-projectupdate/">community-supported use cases</a>.</p>
 <p>In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. With Ryan's expertise, we sped up the project and produced the level of detail required for developers to create the intended features.</p>
 <h2 id="feature-overviews">Feature Overviews</h2>
 <p>The project team designed six features. All 5 CSTs (ArchivesSpace, CollectionSpace, DSpace, Fedora, VIVO) are represented across the features.</p>
@@ -748,10 +748,18 @@
 <h3 id="archivesspace-sword-deposit"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/45">ArchivesSpace SWORD Deposit</a></h3>
 <p><em>ArchivesSpace, any SWORD server</em></p>
 <p>The ArchivesSpace SWORD Deposit feature will allow users to deposit one or more files to a SWORD-enabled repository (e.g., DSpace, Dataverse), such as digitized collection material or born-digital archives. </p>
-<p>Users may deposit any file type that the SWORD endpoint accepts. There are three distinct user journeys (modes) specified in the feature design:
-1. Users may deposit <strong>a single file</strong> by entering edit mode on the associated Archival Object or Resource, then Instances &gt; Add Digital Object &gt; Create &gt; (new option) Upload File Version.
-2. Users may deposit <strong>many files and relate them 1:1</strong> to an archival object by entering edit mode on the associated Archival Object or Resource, then (new option) Batch Upload and Link &gt; Upload files.
-3. Users may deposit many files and relate them all to one Archival Object or Resource by entering edit mode on the associated Archival Object or Resource, then Instances &gt; (new button) Upload Digital Objects &gt; Upload files.</p>
+<p>Users may deposit any file type that the SWORD endpoint accepts. There are three distinct user journeys (modes) specified in the feature design:</p>
+<ol>
+<li>
+<p>Users may deposit <strong>a single file</strong> by entering edit mode on the associated Archival Object or Resource, then Instances &gt; Add Digital Object &gt; Create &gt; (new option) Upload File Version.</p>
+</li>
+<li>
+<p>Users may deposit <strong>many files and relate them 1:1</strong> to an archival object by entering edit mode on the associated Archival Object or Resource, then (new option) Batch Upload and Link &gt; Upload files.</p>
+</li>
+<li>
+<p>Users may deposit many files and relate them all to one Archival Object or Resource by entering edit mode on the associated Archival Object or Resource, then Instances &gt; (new button) Upload Digital Objects &gt; Upload files.</p>
+</li>
+</ol>
 <p>Metadata from the Archival Object, including a link back to the digital object, is used to create the digital objects in the SWORD-enabled repository. </p>
 <p>After the file or group of files is deposited, ArchivesSpace digital objects for each file deposited to the endpoint are created. Each digital object contains a link to the item in the SWORD-enabled repository. </p>
 <p>Once published (which the repository administrator can configure to be a default mode for the feature), each new digital object will appear in the ArchivesSpace PUI linked to an Archival Object or Resource.</p>
@@ -762,9 +770,15 @@
 <p>The feature then links the two records together, posting a link to the DSpace item in the ArchivesSpace Digital Object and a link to the ArchivesSpace Archival Object in the DSpace item.</p>
 <p>The feature design recommends using existing functionality and user interfaces that will make the user journey similar to adding a digital object today. All user journeys start by entering the edit mode on the Archival Object or Resource to link, and navigating to Instances. From Instances, a user may select a new button, e.g. "Add DSpace Items." </p>
 <p>This will expand a list of every immediate child archival object of the host record. Each row shows the child title (or display string) and an input that can hold a provisional link to one DSpace item.</p>
-<p>The new feature searches the DSpace API. The user can link search results in two modes:
-1. Create a DO from &amp; Link a single DSpace item to an ArchivesSpace Archival Object
-2. Create DOs &amp; Link many DSpace items to many ArchivesSpace Archival Objects</p>
+<p>The new feature searches the DSpace API. The user can link search results in two modes:</p>
+<ol>
+<li>
+<p>Create a DO from &amp; Link a single DSpace item to an ArchivesSpace Archival Object</p>
+</li>
+<li>
+<p>Create DOs &amp; Link many DSpace items to many ArchivesSpace Archival Objects</p>
+</li>
+</ol>
 <p>After the file or group of files is linked, ArchivesSpace digital objects for each file deposited to the endpoint are created. Each digital object contains a link to the item in the SWORD-enabled repository. </p>
 <p>Once published (which the repository administrator can configure to be a default mode for the feature), each new digital object will appear in the ArchivesSpace PUI linked to an Archival Object or Resource.</p>
 <p>ArchivesSpace Digital Objects are always created anew in this feature; existing Digital Objects are <em>not</em> appended with a new File Version. An administrator enables and configures the DSpace endpoint in a new GUI menu similar to the existing "Manage OAI-PMH Settings" interface.</p>
