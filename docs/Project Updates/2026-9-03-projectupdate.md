@@ -1,7 +1,7 @@
 # Technical Specifications Complete
 *September 3, 2026*
 
-The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for **six** new features for Lyrasis Community-Supported Technologies! The features are based on specific [community-articulated use cases](/docs/Project_Updates/2026-03-06-projectupdate.md).
+The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for **six** new features for Lyrasis Community-Supported Technologies! The features are based on specific [community-supported use cases](Project%20Updates/2026-03-06-projectupdate/).
 
 In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. With Ryan's expertise, we sped up the project and produced the level of detail required for developers to create the intended features.
 

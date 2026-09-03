@@ -4,16 +4,16 @@ The Community Supported Technologies (CST) Interoperability Project will enhance
 # Project Updates
 
 ## *September 3, 2026* 
-### [Technical Specifications Complete](/docs/Project_Updates/2026-9-03-projectupdate.md)
+### [Technical Specifications Complete](Project%20Updates/2026-9-03-projectupdate/)
 
 ## *March 6, 2026* 
-### [Use Cases Selected](docs/Project_Updates/2026-03-06-projectupdate.md)
+### [Use Cases Selected](Project%20Updates/2026-03-06-projectupdate/)
 
 ## *Dec. 18, 2025* 
-### [Fall Feedback Sessions](docs/Project_Updates/2025-12-08-projectupdate.md)
+### [Fall Feedback Sessions](Project%20Updates/2025-12-18-projectupdate/)
 
 ## *Oct. 21, 2025* 
-### [Project Kickoff at the Organizational Home Cross-Chairs Meeting](docs/Project_Updates/2025-10-21-projectupdate.md) 
+### [Project Kickoff at the Organizational Home Cross-Chairs Meeting](Project%20Updates/2025-10-21-projectupdate/) 
 
 ## *Oct. 22, 2025* 
 ### [Announcing the Lyrasis CST Interoperability Project](https://lyrasis.org/the-lyrasis-organizational-home-launches-the-cst-interoperability-project/) 
