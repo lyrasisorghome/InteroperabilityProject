@@ -1,0 +1,851 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Developing enhancements for Lyrasis Community-Supported Technologies.">
+      
+      
+      
+        <link rel="canonical" href="https://lyrasisorghome.github.io/InteroperabilityProject/Project%20Updates/2026-9-03-projectupdate/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../2026-03-06-projectupdate/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Technical Specifications Complete - Lyrasis CST Interoperability Project</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#technical-specifications-complete" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Lyrasis CST Interoperability Project" class="md-header__button md-logo" aria-label="Lyrasis CST Interoperability Project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Lyrasis CST Interoperability Project
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Technical Specifications Complete
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/lyrasisorghome/InteroperabilityProject" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Lyrasis CST Interoperability Project" class="md-nav__button md-logo" aria-label="Lyrasis CST Interoperability Project" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Lyrasis CST Interoperability Project
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/lyrasisorghome/InteroperabilityProject" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project Updates
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project Updates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Technical Specifications Complete
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Technical Specifications Complete
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#feature-overviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feature Overviews
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Feature Overviews">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integration-scenario-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration Scenario Registry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vivo-sword-deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      VIVO SWORD Deposit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archivesspace-sword-deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArchivesSpace SWORD Deposit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archivesspace-dspace-digital-object-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArchivesSpace &lt;&gt; DSpace Digital Object Linker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oai-pmh-for-collectionspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      OAI-PMH for CollectionSpace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-discovery-for-collectionspace-and-archivesspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Discovery for CollectionSpace and ArchivesSpace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-specification-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Specification Documents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Specification Documents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#about-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      About the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links-to-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links to the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-read-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Read the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-we-made-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      How we made the Docs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's Next
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2026-03-06-projectupdate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Cases Selected
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2025-12-18-projectupdate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fall 2025 Feedback Sessions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2025-10-21-projectupdate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Kickoff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feedback/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Involved
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#feature-overviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feature Overviews
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Feature Overviews">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#integration-scenario-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration Scenario Registry
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vivo-sword-deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      VIVO SWORD Deposit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archivesspace-sword-deposit" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArchivesSpace SWORD Deposit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#archivesspace-dspace-digital-object-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      ArchivesSpace &lt;&gt; DSpace Digital Object Linker
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oai-pmh-for-collectionspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      OAI-PMH for CollectionSpace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-discovery-for-collectionspace-and-archivesspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared Discovery for CollectionSpace and ArchivesSpace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-specification-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Specification Documents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Specification Documents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#about-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      About the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links-to-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links to the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-read-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Read the Docs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-we-made-the-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      How we made the Docs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's Next
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="technical-specifications-complete">Technical Specifications Complete</h1>
+<p><em>September 2, 2026</em></p>
+<p>The Lyrasis CST Interoperability Project Phase I Team is excited to share technical specifications for <strong>six</strong> new features for Lyrasis Community-Supported Technologies! The features are based on specific <a href="/Project_Updates/2026-03-06-projectupdate.md">community-articulated use cases</a>.</p>
+<p>In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. With Ryan's expertise, we sped up the project and produced the level of detail required for developers to create the intended features.</p>
+<h2 id="feature-overviews">Feature Overviews</h2>
+<p>The project team designed six features. All 5 CSTs (ArchivesSpace, CollectionSpace, DSpace, Fedora, VIVO) are represented across the features.</p>
+<p>The feature descriptions below are based on the design so far, not the true implementation of the products. Nothing has been built yet. The next phase of the CST Interoperability Project is to feature and product development. During the development phase, details about the functionality and user experience are subject to change. The Phase I team used technical specification documents (link) to communicate the detail and context required to design features as intended.</p>
+<h3 id="integration-scenario-registry"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/58">Integration Scenario Registry</a></h3>
+<p><em>Fedora, DSpace, VIVO, CollectionSpace, and ArchivesSpace</em></p>
+<p>The Integration Scenario Registry is a new product, not a new feature or enhancement to an existing CST. It is an open hub for people working with any CST to submit information or search for information about integrations. Integrations among CSTs (e.g., Fedora &lt;&gt; DSpace) are accepted as well as integrations that link to technology outside of the Lyrasis CST ecosystem (e.g., Fedora &lt;&gt; Archive-It).</p>
+<p>The product is specified as a read/write GitHub-native registry. Anyone with a GitHub account can submit an integration to the registry, guided by a submission form and data model. The data model requires users to include the source system, the target system, the type of integration, what protocols or standards it requires, and a description of the integration. Optional information includes links to code repositories, configuration notes, system versions, dependencies, and other information. The team suggested building a search interface that anyone with an internet connection can search without a login, and designed a moderation process.</p>
+<h3 id="vivo-sword-deposit"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/54">VIVO SWORD Deposit</a></h3>
+<p><em>VIVO, any SWORD server</em></p>
+<p>The VIVO SWORD Deposit feature will allow users to deposit a file to a SWORD-enabled repository (e.g., DSpace, Dataverse), such as a publication or research data set. After the file is deposited, a link to the content is written back to the user's VIVO profile.</p>
+<p>Users may deposit a .pdf or a METS-compliant .zip file by navigating to a publication entry and selecting a new option, e.g. "SWORD Deposit." The user will be prompted to upload a file and select "Deposit." The file is deposited to the SWORD-enabled repository and a VIVO website is added to the publication. The website contains a link back to the object in its repository. </p>
+<p>An administrator enables and configures the SWORD endpoint through a combination of editing VIVO runtime properties and entering endpoint information in a new Site Admin &gt; Site Configuration &gt; SWORD Configuration GUI.</p>
+<h3 id="archivesspace-sword-deposit"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/45">ArchivesSpace SWORD Deposit</a></h3>
+<p><em>ArchivesSpace, any SWORD server</em></p>
+<p>The ArchivesSpace SWORD Deposit feature will allow users to deposit one or more files to a SWORD-enabled repository (e.g., DSpace, Dataverse), such as digitized collection material or born-digital archives. </p>
+<p>Users may deposit any file type that the SWORD endpoint accepts. There are three distinct user journeys (modes) specified in the feature design:
+1. Users may deposit <strong>a single file</strong> by entering edit mode on the associated Archival Object or Resource, then Instances &gt; Add Digital Object &gt; Create &gt; (new option) Upload File Version.
+2. Users may deposit <strong>many files and relate them 1:1</strong> to an archival object by entering edit mode on the associated Archival Object or Resource, then (new option) Batch Upload and Link &gt; Upload files.
+3. Users may deposit many files and relate them all to one Archival Object or Resource by entering edit mode on the associated Archival Object or Resource, then Instances &gt; (new button) Upload Digital Objects &gt; Upload files.</p>
+<p>Metadata from the Archival Object, including a link back to the digital object, is used to create the digital objects in the SWORD-enabled repository. </p>
+<p>After the file or group of files is deposited, ArchivesSpace digital objects for each file deposited to the endpoint are created. Each digital object contains a link to the item in the SWORD-enabled repository. </p>
+<p>Once published (which the repository administrator can configure to be a default mode for the feature), each new digital object will appear in the ArchivesSpace PUI linked to an Archival Object or Resource.</p>
+<p>An administrator enables and configures the SWORD endpoint in a new GUI page similar to the existing "Manage OAI-PMH Settings" interface.</p>
+<h3 id="archivesspace-dspace-digital-object-linker"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/7">ArchivesSpace &lt;&gt; DSpace Digital Object Linker</a></h3>
+<p><em>ArchivesSpace, DSpace</em></p>
+<p>The ArchivesSpace DSpace Digital Object Linker feature will allow users to create digital objects in ArchivesSpace from existing DSpace items, such as digitized archives or institutional archives. </p>
+<p>The feature then links the two records together, posting a link to the DSpace item in the ArchivesSpace Digital Object and a link to the ArchivesSpace Archival Object in the DSpace item.</p>
+<p>The feature design recommends using existing functionality and user interfaces that will make the user journey similar to adding a digital object today. All user journeys start by entering the edit mode on the Archival Object or Resource to link, and navigating to Instances. From Instances, a user may select a new button, e.g. "Add DSpace Items." </p>
+<p>This will expand a list of every immediate child archival object of the host record. Each row shows the child title (or display string) and an input that can hold a provisional link to one DSpace item.</p>
+<p>The new feature searches the DSpace API. The user can link search results in two modes:
+1. Create a DO from &amp; Link a single DSpace item to an ArchivesSpace Archival Object
+2. Create DOs &amp; Link many DSpace items to many ArchivesSpace Archival Objects</p>
+<p>After the file or group of files is linked, ArchivesSpace digital objects for each file deposited to the endpoint are created. Each digital object contains a link to the item in the SWORD-enabled repository. </p>
+<p>Once published (which the repository administrator can configure to be a default mode for the feature), each new digital object will appear in the ArchivesSpace PUI linked to an Archival Object or Resource.</p>
+<p>ArchivesSpace Digital Objects are always created anew in this feature; existing Digital Objects are <em>not</em> appended with a new File Version. An administrator enables and configures the DSpace endpoint in a new GUI menu similar to the existing "Manage OAI-PMH Settings" interface.</p>
+<h3 id="oai-pmh-for-collectionspace"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/46">OAI-PMH for CollectionSpace</a></h3>
+<p><em>CollectionSpace, any OAI-PMH harvester</em></p>
+<p>The OAI-PMH for CollectionSpace feature will enable the Open Archives Initiative Protocol for Metadata Harvesting. After an administrator enables the feature, harvesters will be able to collect data and digital objects from CollectionSpace collection objects that are marked as <em>Published To</em> the CollectionSpace Public Browser. An administrator enables and configures the OAI-PMH settings endpoint in a new graphical user interface (GUI).</p>
+<h3 id="shared-discovery-for-collectionspace-and-archivesspace"><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/51">Shared Discovery for CollectionSpace and ArchivesSpace</a></h3>
+<p>The Shared Discovery for CollectionSpace and ArchivesSpace specification describes a how a new search product could unify published CollectionSpace and ArchivesSpace records in one interface.</p>
+<p>The design offers two display implementation options: (1) Display records from each repository side by side; or (2) display records in a unified interface. The project team recommended Display Option 1.</p>
+<p>During the implementation phase, the implementation team will develop the search and display product, and release open source code so that other institutions may use it as a baseline for developing their own shared CollectionSpace/ArchivesSpace search.</p>
+<h2 id="technical-specification-documents">Technical Specification Documents</h2>
+<h3 id="about-the-docs">About the Docs</h3>
+<p>Each specification document defines actors and roles, describes integration architecture, proposes configuration details, outlines behavior and error scenarios, and includes other information for developers as required per the project's RFP.</p>
+<h3 id="links-to-the-docs">Links to the Docs</h3>
+<ol>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/58">Integration Scenario Registry</a></li>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/54">VIVO SWORD Deposit</a></li>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/45">ArchivesSpace SWORD Deposit</a></li>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/7">ArchivesSpace &lt;&gt; DSpace Digital Object Linker</a></li>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/46">OAI-PMH for CollectionSpace</a></li>
+<li><a href="https://github.com/lyrasisorghome/InteroperabilityProject/issues/51">Shared Discovery for CollectionSpace and ArchivesSpace</a></li>
+</ol>
+<h3 id="how-to-read-the-docs">How to Read the Docs</h3>
+<p>If you are primarily a staff user of a Lyrasis CST, you may want to read the intro then start with the Behavior Scenarios toward the end of the doc. Developer users may find interest in more of the details between those two points.</p>
+<h3 id="how-we-made-the-docs">How we made the Docs</h3>
+<p>From March to April 2026, the project team (Jess Farrell and Bridget Almas, with support from Community Staff teams) expanded use cases into gherkin-syntax behavior driven design scenarios. The behavior scenarios surfaced many questions about system architecture that we began investigating. To speed the project up, we ran the behavior scenarios through Claude to identify a list of technical specification gaps. </p>
+<p>In May, Ryan Morrison-Westphal, Senior Software Engineer, joined the Redstart Works team to enhance the detail of the specification documents and fill known gaps. Ryan used his knowledge of system architecture, behavior driven design, familiarity with the many coding languages used across CSTs, and experience writing technical documentation to expand and iterate on the drafts we produced in March-April.</p>
+<p>After many iterations and reviews of the documents among the consultant team, the CST Director of Operations, and the CST Community Staff teams, we arrived at the documents we're sharing today. The consultant team occasionally used Claude to check for inconsistencies during revisions when, for example, a design element is changed in a 50-page specification document, and we had to find all of the places where that change would affect a feature description, diagram, behavior scenario or table data.</p>
+<h2 id="whats-next">What's Next</h2>
+<p>Stay tuned for updates as the CST Interoperability Project heads into Phase II, Implementation!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
