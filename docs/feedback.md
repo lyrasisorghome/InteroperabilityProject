@@ -1,4 +1,8 @@
-# Today's Action: Take the Interoperability Survey!
+# Today's Action
+Feedback is closed on Phase I of the CST Interoperability Project. Stay tuned to learn about ways to get involved for Phase II in Fall 2026 or later.
+# Phase I Participation Opportunities (Past information)
+## Take the Interoperability Survey!
+
 The survey closes on Jan. 15, 2026. Thanks for your participation!
 
 Survey links: 
@@ -8,7 +12,8 @@ Survey links:
 - [DSpace](https://docs.google.com/forms/d/e/1FAIpQLSf5ditujBbXJl5b0ItqJ-g0eSqzRxiEqNEuG5arl0THl5clVA/viewform?usp=dialog)
 - [Fedora](https://docs.google.com/forms/d/e/1FAIpQLScG7-K0tPVhjuopezNoRakZ2cVsquvuXu357Bls_iOuHbJnfg/viewform?usp=dialog)
 - [VIVO](https://docs.google.com/forms/d/e/1FAIpQLSdGSmuNqkZRqBUewvnpSHKSkCpZtW8QuyNxTZ3vbqxTciaaVw/viewform?usp=dialog)
-# Interoperability Solutions Feedback Process
+
+## Phase I Interoperability Solutions Feedback Process
 There are many ways to provide feedback on interoperability solutions to be considered in the Lyrasis CST Interoperability project.
 
 Each Lyrasis CST will receive development support for at least *one* interoperability solution. The solution may be an integration between two applications or another enhancement that improves the interoperability of the technology.
@@ -20,7 +25,7 @@ To select a solution for each community to pursue, the Interoperability project 
 3. Generate solutions
 4. Make a proposal and facilitate a decision with community leadership
 
-## Generating Ideas (Oct - Dec 2025)
+### Generating Ideas (Oct - Dec 2025)
 <p>There are 4 ways to generate and submit ideas:</p>
 
 1. Attend a workshop in November or December 2025
@@ -38,16 +43,16 @@ To select a solution for each community to pursue, the Interoperability project 
 
 Some ideas were also generated from past community conversations which were documented on websites or listservs.
 
-## Generating Conversation and Solutions (Dec 2025 - Jan 2026)
+### Generating Conversation and Solutions (Dec 2025 - Jan 2026)
 Generated ideas are posted to GitHub Issues and an email list. The ideas are refined into discrete solutions.
 
 - Join the discussion on [GitHub Issues](https://github.com/lyrasisorghome/InteroperabilityProject/issues)
 - Join the discussion on the [cst-interoperability Google Group](https://groups.google.com/a/lyrasislists.org/g/cst-interoperability).
 
-## Proposal and Decision
+### Proposal and Decision
 The CST Interoperability consultant will review feedback generated from these sources and make a proposal to each community's leadership. The target date for finalizing this decision is Feb. 9, 2026.
 
-# Designing Integrations Together
+## Designing Integrations Together
 _*Feb-May 2026*_
 
 Once solutions are identified in the first phase of the project, we will draft descriptions and user behavior scenarios using a Behavior-Driven Design (BDD) process. There are two ways to participate in defining user behavior.
