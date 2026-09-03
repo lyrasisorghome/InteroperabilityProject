@@ -7,6 +7,6 @@ nav:
   - Get Involved: feedback.md
   - About: about.md
 
-theme: readthedocs
+theme: material
 plugins:
   - rss
