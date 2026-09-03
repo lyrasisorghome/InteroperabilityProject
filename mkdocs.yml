@@ -4,6 +4,12 @@ site_url: https://lyrasisorghome.github.io/InteroperabilityProject
 repo_url: https://github.com/lyrasisorghome/InteroperabilityProject
 nav:
   - Home: index.md
+  - Project Updates:
+     - Earlier Updates: index.md
+     - Technical Specifications Complete: Project Updates/2026-9-03-projectupdate.md
+     - Use Cases Selected: Project Updates/2026-03-06-projectupdate.md
+     - Fall 2025 Feedback Sessions: Project Updates/2025-12-18-projectupdate.md
+     - Project Kickoff: Project Updates/2025-10-21-projectupdate.md
   - Get Involved: feedback.md
   - About: about.md
 
