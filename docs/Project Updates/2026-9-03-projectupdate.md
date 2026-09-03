@@ -8,7 +8,7 @@ In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. Wi
 ## Feature Overviews
 The project team designed six features. All 5 CSTs (ArchivesSpace, CollectionSpace, DSpace, Fedora, VIVO) are represented across the features.
 
-The feature descriptions below are based on the design so far, not the true implementation of the products. Nothing has been built yet. The next phase of the CST Interoperability Project is to feature and product development. During the development phase, details about the functionality and user experience are subject to change. The Phase I team used technical specification documents (link) to communicate the detail and context required to design features as intended.
+The feature descriptions below are based on the design so far, not the true implementation of the products. Nothing has been built yet. The next phase of the CST Interoperability Project is feature and product development. During the development phase, details about the functionality and user experience are subject to change. The Phase I team used technical specification documents (link) to communicate the detail and context required to design features as intended.
 
 ### [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/issues/58)
 *Fedora, DSpace, VIVO, CollectionSpace, and ArchivesSpace*
