@@ -8,7 +8,7 @@ In May, we added Senior Software Engineer Ryan Morrison-Westphal to the team. Wi
 ## Feature Overviews
 The project team designed six features. All 5 CSTs (ArchivesSpace, CollectionSpace, DSpace, Fedora, VIVO) are represented across the features.
 
-The feature descriptions below are based on the design so far, not the true implementation of the products. Nothing has been built yet. The next phase of the CST Interoperability Project is feature and product development. During the development phase, details about the functionality and user experience are subject to change. The Phase I team used technical specification documents (link) to communicate the detail and context required to design features as intended.
+The feature descriptions below are based on the design so far, not the true implementation of the products. Nothing has been built yet. The next phase of the CST Interoperability Project is feature and product development. During the development phase, details about the functionality and user experience are subject to change. The Phase I team used [technical specification documents](https://github.com/lyrasisorghome/InteroperabilityProject/tree/main/specs) to communicate the detail and context required to design features as intended.
 
 ### [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/issues/58)
 *Fedora, DSpace, VIVO, CollectionSpace, and ArchivesSpace*
@@ -87,17 +87,17 @@ During the implementation phase, the implementation team will develop the search
 ### About the Docs
 Each specification document defines actors and roles, describes integration architecture, proposes configuration details, outlines behavior and error scenarios, and includes other information for developers as required per the project's RFP.
 ### Links to the Docs
-1. [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/issues/58)
-2. [VIVO SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/issues/54)
-3. [ArchivesSpace SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/issues/45)
-4. [ArchivesSpace <> DSpace Digital Object Linker](https://github.com/lyrasisorghome/InteroperabilityProject/issues/7)
-5. [OAI-PMH for CollectionSpace](https://github.com/lyrasisorghome/InteroperabilityProject/issues/46)
-6. [Shared Discovery for CollectionSpace and ArchivesSpace](https://github.com/lyrasisorghome/InteroperabilityProject/issues/51)
+1. [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_C3_CSpace_ASpace_Shared_Discovery.pdf)
+2. [VIVO SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_V1_VIVO-SWORD-Deposit.pdf)
+3. [ArchivesSpace SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_A3-4_SWORD_Deposit_from_ArchivesSpace.pdf)
+4. [ArchivesSpace <> DSpace Digital Object Linker](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_A1-2_Bidirectional_Linking_ArchivesSpace-DSpace.pdf)
+5. [OAI-PMH for CollectionSpace](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_C1_CollectionSpace-OAI-PMH.pdf)
+6. [Shared Discovery for CollectionSpace and ArchivesSpace](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_C3_CSpace_ASpace_Shared_Discovery.pdf)
 
 ### How to Read the Docs
 If you are primarily a staff user of a Lyrasis CST, you may want to read the intro then start with the Behavior Scenarios toward the end of the doc. Developer users may find interest in more of the details between those two points.
 ### How we made the Docs
-From March to April 2026, the project team (Jess Farrell and Bridget Almas, with support from Community Staff teams) expanded use cases into gherkin-syntax behavior driven design scenarios. The behavior scenarios surfaced many questions about system architecture that we began investigating. To speed the project up, we ran the behavior scenarios through Claude to identify a list of technical specification gaps. 
+From March to April 2026, the project team (Jess Farrell and Bridget Almas, with support from Community Staff teams) expanded use cases into gherkin-syntax behavior driven design scenarios. The behavior scenarios surfaced many questions about system architecture that we began investigating. To speed the project up, we ran the behavior scenarios through Claude to help us develop a consistent structure for the specifications and to identify a list of technical specification gaps. 
 
 In May, Ryan Morrison-Westphal, Senior Software Engineer, joined the Redstart Works team to enhance the detail of the specification documents and fill known gaps. Ryan drew upon his experience with system architecture, behavior-driven design, and full-stack software development across a variety of technology stacks, as well as his experience writing and implementing technical specifications at Amazon, to expand and iterate on the drafts produced in March and April. Ryan now works as an independent software consultant through Tripping the Bits.
 
