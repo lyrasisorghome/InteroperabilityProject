@@ -87,7 +87,7 @@ During the implementation phase, the implementation team will develop the search
 ### About the Docs
 Each specification document defines actors and roles, describes integration architecture, proposes configuration details, outlines behavior and error scenarios, and includes other information for developers as required per the project's RFP.
 ### Links to the Docs
-1. [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_C3_CSpace_ASpace_Shared_Discovery.pdf)
+1. [Integration Scenario Registry](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_F1_Integration_Scenario_Registry.pdf)
 2. [VIVO SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_V1_VIVO-SWORD-Deposit.pdf)
 3. [ArchivesSpace SWORD Deposit](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_A3-4_SWORD_Deposit_from_ArchivesSpace.pdf)
 4. [ArchivesSpace <> DSpace Digital Object Linker](https://github.com/lyrasisorghome/InteroperabilityProject/blob/main/specs/TechSpec_A1-2_Bidirectional_Linking_ArchivesSpace-DSpace.pdf)
