@@ -14,6 +14,7 @@ The final deliverables will be submitted to the ArchivesSpace and VIVO communiti
 For full details and links to the specifications see the attached Request For Proposals (RFP) document.  
 
 **Key dates:**
+
 * November 2, 2026: RFP Release
 * November 16, 2026: Bidders Information Session (10am ET - [register here](https://lyrasis.zoom.us/meeting/register/lA5G3nGoTlCBOvYEppc36Q))
 * November 23, 2026: Written questions due (5:00pm ET)
