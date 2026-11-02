@@ -1,3 +1,6 @@
+# Request for Proposals - Implementations
+*November 2, 2026*
+
 Lyrasis seeks one or more proposals to implement interoperability features that have been specified in [Phase I of the CST Interoperability Project](https://lyrasisorghome.github.io/InteroperabilityProject/Project%20Updates/2026-9-03-projectupdate/).  
 
 These specifications impact ArchiveSpace, DSpace, and VIVO, and involve the development of new code for ArchiveSpace and VIVO.  This work is funded by Lyrasis through the CST Growth Fund. 
