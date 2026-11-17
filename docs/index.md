@@ -3,6 +3,9 @@ The Community Supported Technologies (CST) Interoperability Project will enhance
 
 # Project Updates
 
+## *November 17, 2026*
+### [Bidders Information Session](Project%20Updates/2026-11-17-projectupdate/)
+
 ## *November 2, 2026*
 ### [Request for Proposals - Implementations](Project%20Updates/2026-11-02-projectupdate/)
 
